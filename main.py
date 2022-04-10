@@ -16,7 +16,7 @@ from streamlit import cli as stcli
 import streamlit as st
 import numpy as np
 
-@st.cache(allow_output_mutation=True)
+@st.cache(allow_output_mutation = True)
 def get_sudoku(n):
     return Sudoku(n)
 
