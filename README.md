@@ -5,6 +5,8 @@ MUIC ICCS205 Numerical Computation: Sudoku Project
 
 A popular number game/puzzle whose objective is to fill each of the empty cells in a grid with the correct number using the given initial clues.
 
+https://user-images.githubusercontent.com/60769071/162630449-3963b3ec-a6d1-4903-9eda-d890c7629fe6.mp4
+
 # Solving Sudoku using Linear Optimization
 Unlike a normal linear optimization problem, the problem of sudoku puzzle does not have an objective function to be optimized because there is no better, or worse, solution. So, as long as the solution does not violate the constraints, the solution is valid. As for the decision variables, we utilize the 3-dimensional binary grid to represent all the combination of the value, row, and column, which in turn help us with the constraints where the constraints are as follows.
 1. Each row must contain the numbers without repetitions
@@ -42,6 +44,6 @@ Please run main.py to start a basic webapp for project demo.
 ```
 streamlit run main.py
 ```
-The main.py can also be run from the file itself.
+The main.py can also be run from the file itself (Reccomended).
 
 <b> Note: </b> The current working directory <b> must be </b> where the files are located.
