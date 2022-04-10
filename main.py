@@ -48,7 +48,19 @@ def main():
     st.caption("Presented by Nattapoom Dumronglaohapun")
     if (st.button("New Puzzle")):
         st.legacy_caching.clear_cache()
-    sudoku = get_sudoku(9)
+    with st.sidebar:
+        options = {
+            4 : "4x4",
+            9 : "9x9",
+            16 : "16x16"
+        }
+        n = st.selectbox(
+            "Select the grid size",
+            options.keys(),
+            index = 1,
+            format_func = lambda key : options[key]
+        )
+    sudoku = get_sudoku(n)
     puzzle = sudoku.puzzle
     board_html = get_sudoku_board_html(puzzle)
     style = '''
