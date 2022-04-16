@@ -1,5 +1,5 @@
-# sudoku-project
-MUIC ICCS205 Numerical Computation: Sudoku Project
+# Sudoku Project
+MUIC ICCS205 Numerical Computation
 
 # Sudoku
 
