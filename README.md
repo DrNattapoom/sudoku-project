@@ -44,6 +44,6 @@ Please run main.py to start a basic webapp for project demo.
 ```
 streamlit run main.py
 ```
-The main.py can also be run from the file itself (Reccomended).
+The main.py can also be run from the file itself (Recommended).
 
 <b> Note: </b> The current working directory <b> must be </b> where the files are located.
